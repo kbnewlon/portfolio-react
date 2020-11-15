@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 
 function Navbar() {
@@ -17,10 +18,10 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#header">HOME <span className="sr-only">(current)</span></a>
+                    <a className="nav-link page-scroll" href="/">HOME <span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#intro">INTRO</a>
+                    <a className="nav-link page-scroll" href="/about">ABOUT ME</a>
                 </li>
 
                 <li className="nav-item">
@@ -28,25 +29,8 @@ function Navbar() {
                 </li>
             </ul>
 
-                <span className="nav-item social-icons">
-                    <span className="fa-stack">
-                        <a href="#your-link">
-                            <span className="hexagon"></span>
-                            <i className="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span className="fa-stack">
-                        <a href="#your-link">
-                            <span className="hexagon"></span>
-                            <i className="fab fa-twitter fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </span>
         </div>
 </nav>
-  
-
-        
         
         </>
     )

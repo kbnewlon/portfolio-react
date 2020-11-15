@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 function Header() {
     return (
         <>
@@ -25,7 +26,7 @@ function Header() {
                                 <div className="text-container">
                                     <h1>FULL STACK WEB DEVELOPER</h1>
                                     <p className="p-heading p-large"> Kayla B. Newlon</p>
-                                    <a className="btn-solid-lg page-scroll" href="#intro">LEARN MORE</a>
+                                    <a className="btn-solid-lg page-scroll" href="/about">LEARN MORE</a>
                                 </div>
                             </div>
                         </div>
