@@ -1,0 +1,20 @@
+.portfolioDiv{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding:0;
+}
+
+.col{
+    padding: 10px;
+    margin:10px;
+}
+.portfolioCard{
+    margin-top: 20px;
+}
+
+.headerPortfolio{
+    margin-top: 100px;
+    text-align: center;
+}
