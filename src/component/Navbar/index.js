@@ -24,7 +24,7 @@ function Navbar() {
                 </li>
 
                 <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#projects">PROJECTS</a>
+                    <a className="nav-link page-scroll" href="/portfolio">PORTFOLIO</a>
                 </li>
             </ul>
 
